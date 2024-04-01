@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "api/rust-practice",
+      "use": "@vercel/rust"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/.*",
+      "dest": "api/rust-practice"
+    }
+  ]
+}
