@@ -7,3 +7,10 @@ edition = "2021"
 
 [dependencies]
 rocket = "0.5.0"
+tokio = {version = "1.37.0", features = ["macros"]}
+serde_json = { version = "1.0.115", features = ["raw_value"] }
+vercel_runtime = "1.1.1"
+
+[[bin]]
+name = "handler"
+path = "api/handler.rs"
