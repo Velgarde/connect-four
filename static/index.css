@@ -1,0 +1,33 @@
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    width: 70vmin;
+    margin: auto;
+}
+
+.cell {
+    width: 10vmin;
+    height: 10vmin;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.player1{
+    background-color: red;
+}
+
+.player2 {
+    background-color: yellow;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
